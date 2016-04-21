@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.zeeshan.contactsmap.ContactDetails"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="heading"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin">
+        <TextView
+            android:id="@+id/locations"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Text Starts from here"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/custom_border"/>
+    </ScrollView>
+
+</LinearLayout>
